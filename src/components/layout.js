@@ -27,6 +27,28 @@ const Layout = ({ children }) => (
           ]}
         >
           <html lang="en" />
+          <head>
+            <meta charset="utf-8"/>
+            <meta content="Discover Women’s New &amp; Vintage clothing with ASOS Marketplace. From prom dresses &amp; T shirts to era styles, 1920s, 30s, to 50s &amp; 80s clothing." name="description" property="og:description" />
+            
+            <title>
+                Women’s Vintage Clothing | Dresses, T shirts &amp; Jewellery from new brands | ASOS Marketplace
+            </title>
+
+
+            
+            <link href="https://marketplace-content.asos.com/css/styles1.min__v4.65.1151_.css" rel="stylesheet" type="text/css" />
+            <link href="https://marketplace-content.asos.com/css/styles2.min__v4.65.1151_.css" rel="stylesheet" type="text/css" />
+            <link href="https://marketplace-content.asos.com/css/media__v4.65.1151_.css" rel="stylesheet" type="text/css" />
+
+            <script type="text/javascript" src="https://marketplace-content.asos.com/js/lib/jquery-1.12.4.min.js"></script>
+            <script type="text/javascript" src="https://marketplace-content.asos.com/js/lib/jquery-migrate-1.4.1.min.js"></script>
+            <script type="text/javascript" src="https://marketplace-content.asos.com/Scripts/js/lib/knockout-3.3.0.js"></script>
+            <script type="text/javascript" src="https://marketplace-content.asos.com/Scripts/js/lib/require-2.1.19.js"></script>
+
+            <script src="https://marketplace-content.asos.com/scripts/js/common.controller.min__v4.65.1151_.js" type="text/javascript"></script>
+
+        </head>
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
